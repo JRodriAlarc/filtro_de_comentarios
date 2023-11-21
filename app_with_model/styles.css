@@ -1,0 +1,45 @@
+/* Fondo oscuro */
+body {
+    background-color: #343a40; /* Cambia el color de fondo al que prefieras */
+    color: #fff; /* Cambia el color del texto a blanco o el que desees */
+}
+
+/* Estilo oscuro para el contenedor principal */
+.container {
+    background-color: transparent; /* Hacemos el contenedor transparente para heredar el fondo del body */
+}
+
+/* Estilo para las tarjetas */
+.card {
+    background-color: #454d55; /* Cambia el color de fondo de las tarjetas */
+    color: #fff; /* Cambia el color del texto en las tarjetas */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5); /* Agrega sombra a las tarjetas */
+}
+
+/* Estilo para los campos de entrada */
+.form-control {
+    background-color: #454d55; /* Cambia el color de fondo del campo de entrada */
+    color: #fff; /* Cambia el color del texto en el campo de entrada */
+    border-color: #6c757d; /* Cambia el color del borde del campo de entrada */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3); /* Agrega sombra al campo de entrada */
+}
+
+/* Estilo para el botón */
+.btn-primary {
+    background-color: #6c757d; /* Cambia el color de fondo del botón */
+    border-color: #6c757d; /* Cambia el color del borde del botón */
+    color: #fff; /* Cambia el color del texto del botón */
+}
+
+.bg-body {
+    --bs-bg-opacity: 0;
+}
+
+.form-control:focus {
+    background-color: #fff; /* Cambia el color de fondo cuando el campo está enfocado */
+    color: #000; /* Cambia el color del texto cuando el campo está enfocado */
+}
+
+.form-text{
+    color: white;
+}
