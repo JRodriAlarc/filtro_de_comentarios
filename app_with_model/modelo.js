@@ -82,8 +82,8 @@ async function predecirComentario(comentarioProcesado) {
         if (comentarioProcesado !== null) {
             predecirComentario(comentarioProcesado).then(etiqueta => {
                 const resultado = document.getElementById("resultado");
-                //resultado.innerHTML = `El comentario: '${nuevoComentario}' se clasifica como: ${etiqueta}`;
-                resultado.innerHTML = `${etiqueta}`;
+                resultado.innerHTML = `El comentario: '${nuevoComentario}' se clasifica como: ${etiqueta}`;
+                //resultado.innerHTML = `${etiqueta}`;
             });
         } else{
             document.getElementById("resultado").innerHTML = "Intenta de nuevo en un rato...";
