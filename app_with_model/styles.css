@@ -36,8 +36,8 @@ body {
 }
 
 .form-control:focus {
-    background-color: #fff; /* Cambia el color de fondo cuando el campo está enfocado */
-    color: #000; /* Cambia el color del texto cuando el campo está enfocado */
+    background-color: #454d55; /* Cambia el color de fondo cuando el campo está enfocado */
+    color: #fff; /* Cambia el color del texto cuando el campo está enfocado */
 }
 
 .form-text{
