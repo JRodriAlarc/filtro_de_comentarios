@@ -1,7 +1,7 @@
 let modelo = null;
 let tokenizerConfig = null;
-const vocabSize = 2097;  // Tamaño del vocabulario
-const max_length = 42;  // Longitud máxima de los comentarios
+const vocabSize = 3277;  // Tamaño del vocabulario
+const max_length = 130;  // Longitud máxima de los comentarios
 
 // Cargar el modelo
 (async () => {
